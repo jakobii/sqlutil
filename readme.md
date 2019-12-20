@@ -1,6 +1,8 @@
 # sqlutil
-A group of SQL utilities. Statement generators and datatype conversion.
 
+A group of SQL utilities. 
+- Statement generators
+- datatype serializers
 
 
 This library allows you to programmatically build sql statements. statements can be easily build by combining function calls that incrementally generates a statement.
@@ -75,8 +77,9 @@ func main () {
 }
 ```
 
-The above code produces the following output. the output has been formated for readability.
-```
+The above code produces the following output. The output has been formatted for readability.
+
+```sql
 SELECT TOP 42 
     "id" AS "ID", 
     "fn" AS "FirstName", 
